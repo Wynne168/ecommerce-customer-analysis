@@ -218,3 +218,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# 本项目的数据文件
+data/
+*.parquet
+*.zip
+*.7z
