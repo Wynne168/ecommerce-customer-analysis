@@ -1,0 +1,19 @@
+{
+  "python_version": "3.12.0",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "dependencies": {
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "pyarrow": "26.0.0",
+    "matplotlib": "3.11.2",
+    "seaborn": "0.13.2",
+    "scikit-learn": "1.9.1",
+    "ipython": "9.17.0",
+    "ipykernel": "7.3.0"
+  },
+  "main_model": "原计数版本逻辑回归",
+  "selection_fraction": 0.1,
+  "random_seed": 42,
+  "sample_percent": 2,
+  "reproduction_status": "已重启内核并完整运行通过"
+}
