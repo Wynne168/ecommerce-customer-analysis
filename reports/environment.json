@@ -15,5 +15,5 @@
   "selection_fraction": 0.1,
   "random_seed": 42,
   "sample_percent": 2,
-  "reproduction_status": "已重启内核并完整运行通过"
+  "reproduction_status": "待重启内核后完整运行验证"
 }
