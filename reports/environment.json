@@ -15,5 +15,14 @@
   "selection_fraction": 0.1,
   "random_seed": 42,
   "sample_percent": 2,
-  "reproduction_status": "待重启内核后完整运行验证"
+  "reproduction_status": "已在干净环境端到端重跑验证（23 张汇总表逐表一致）",
+  "reproduction_verification": {
+    "date": "2026-11-16",
+    "method": "独立干净 venv，官方原始数据六个 parquet，按 Notebook 第 1–28 格顺序端到端执行",
+    "code_cells_passed": 28,
+    "tables_compared": 23,
+    "tables_identical": 23,
+    "python_version": "3.13.14",
+    "note": "顶层 python_version 为原始运行环境记录；复现用 Python 3.13.14，锁定依赖版本与仓库一致，跨小版本结果一致"
+  }
 }
